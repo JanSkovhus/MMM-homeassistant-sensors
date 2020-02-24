@@ -166,6 +166,7 @@ Module.register("MMM-homeassistant-sensors", {
     }
     // Name
     newCell = newrow.insertCell(1);
+    newCell.className = "align-left";
     newText = document.createTextNode(name);
     newCell.appendChild(newText);
     // Value
